@@ -1,0 +1,41 @@
+.usermonial {
+    display: flex;
+    justify-content: center;
+    background-color: #112C41;
+    height: 400px;
+}
+
+.user-img {
+    margin-right: 3rem;
+}
+
+.monial-left {
+    display: flex;
+}
+
+.monial-right {
+    color: white;
+}
+
+.monial-inner {
+    display: flex;
+    width: 85%;
+    align-items: center;
+}
+
+.monial-para {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.user-para {
+    padding-left: 25px;
+    margin-bottom: 3px;
+}
+
+.read {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 1rem;
+}

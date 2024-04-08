@@ -1,0 +1,72 @@
+
+.believe {
+    padding: 20px 20px;
+    /* height: 100vh; */
+    border: 1px solid black;
+}
+.conatiner-top {
+    display: flex;  
+    margin: 5rem;
+}
+
+.cont-left {
+    width: 50%;
+}
+
+.believe-heading {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.cont-right {
+    width: 50%;
+}
+
+.believe-para1, .believe-para2{
+    margin-bottom:30px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.believe-para3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.graph-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* believe responsive */
+
+@media (max-width: 768px) {
+    .conatiner-top {
+        flex-direction: column;
+    }
+    .cont-right {
+        width: 100%;
+    }
+    .believe-heading {
+        font-size: 40px;
+        margin-bottom: 1rem;
+    }
+    .believe-para1, .believe-para2 {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .believe-heading {
+        font-size: 40px;
+        margin-bottom: 1rem;
+    }
+    .believe-para1, .believe-para2 {
+        font-size: 13px;
+    }
+
+    .believe-para3 {
+        font-size: 19px;
+    }
+}

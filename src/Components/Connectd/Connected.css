@@ -1,0 +1,149 @@
+/* Connected styling */
+
+.connected {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left-side,
+.right-side {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.left-side {
+    width: 50%;
+    padding: 50px 60px;
+}
+
+.right-side {
+    width: 50%;
+}
+
+.left-heading {
+    font-size: 50px;
+    margin-bottom: 3rem;
+    font-weight: 100;
+}
+
+.heading-color {
+    color: coral;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.para {
+    padding: 0 50px;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.907);
+
+}
+
+.left-inner {
+    padding: 20px;
+}
+
+.left-inner h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.business-top {
+    font-size: 28px;
+}
+
+.business {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.business-heading {
+    line-height: 3rem;
+    font-size: 28px;
+}
+
+.connect-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.connect-img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+/* animations */
+.connected.animate .left-side,
+.connected.animate .right-side,
+.connected.animate .connect-img {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+/* connected responsive */
+
+@media (max-width: 768px) {
+    .connected {
+        flex-direction: column;
+    }
+
+    .left-side {
+        width: 100%;
+        padding: 0px 80px;
+    }
+
+    .right-side {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .connect-img {
+        width: 96%;
+    }
+
+    .para {
+        padding: 0 10px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .left-side {
+        padding: 31px 16px;
+    }
+
+    .para {
+        padding: 0 0px;
+        font-size: 16px;
+    }
+
+    .business-top {
+        font-size: 17px;
+    }
+    .left-heading {
+        font-size: 40px;
+    }
+
+    .business-heading {
+        font-size: 17px;
+    }
+}
