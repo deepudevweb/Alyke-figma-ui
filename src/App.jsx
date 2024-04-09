@@ -6,6 +6,7 @@ import Believe from './Components/Believe/Believe'
 import Program from './Components/Program/Program'
 import Globe from './Components/Globe/Globe'
 import Footer from './Components/Footer/Footer'
+import Navbar from './Components/Navbar/Navbar'
 // import Celebrate from './Components/Celebrate/Celebrate'
 
 
@@ -13,7 +14,8 @@ import Footer from './Components/Footer/Footer'
 function App() {
   return (
     <div>
-      <Pagenavigate />
+      <Home />
+      {/* <Pagenavigate /> */}
       <Connected />
       <Believe />
       {/* <Celebrate /> */}

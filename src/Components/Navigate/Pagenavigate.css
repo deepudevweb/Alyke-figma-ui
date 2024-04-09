@@ -21,4 +21,21 @@
     border: 1px solid black;
 }
 
+/* navigate responsive */
+
+@media (max-width: 425px) {
+  .page> span {
+    font-size: 10px;
+  }
+
+  .page {
+    gap: 10px;  
+}
+
+.nav-count {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+}
+
 

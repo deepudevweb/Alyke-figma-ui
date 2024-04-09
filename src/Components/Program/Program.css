@@ -66,3 +66,25 @@
         padding: 21px 52px;
     }
 }
+
+@media (max-width: 425px) {
+    .prog-left {
+        padding: 35px 43px;
+    }
+
+    .prog-left h1 {
+        font-size: 26px;
+    }
+    .prog-left > p {
+        font-size: 12px;
+    }
+
+    .programdown {
+        padding: 5px;
+    }
+
+    .down-img {
+        height: 180px;
+    }
+
+}

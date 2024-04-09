@@ -70,3 +70,25 @@
         font-size: 19px;
     }
 }
+
+@media (max-width: 425px) {
+    .believe-heading {
+        font-size: 30px;
+        margin-bottom: 1rem;    
+    }
+    .believe-para1, .believe-para2 {
+        font-size: 12px;
+    }
+
+    .believe-para3 {
+        font-size: 16px;
+    }
+    .believe {
+        padding: 5px 3px;
+    }
+
+    .conatiner-top {
+        margin: 2.5rem;
+    }
+
+}

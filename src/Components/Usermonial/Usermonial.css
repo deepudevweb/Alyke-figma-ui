@@ -39,3 +39,37 @@
     cursor: pointer;
     margin-top: 1rem;
 }
+
+@media (max-width: 425px) { 
+    .usermonial {
+        height: 280px;
+    }
+
+    .user-img {
+        margin-right: .6rem;
+        scale: .7;
+    }
+
+    .monial-inner {
+        width: 100%;
+    }
+
+    .monial-para {
+        font-size: 8px;
+        margin-bottom: 21px;
+    }
+
+    .user-para {
+        padding-left: 0px;
+        margin-bottom: 2px;
+        font-size: 9px;
+    }
+
+    .read {
+        font-size: 9px;
+    }
+
+    .monial-right {
+        margin-right: 1rem;
+    }
+}

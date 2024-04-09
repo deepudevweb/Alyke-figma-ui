@@ -126,6 +126,13 @@
     }
 }
 
+@media (max-width: 425) {
+    .left-side {
+        padding: 0px 15px;
+    }
+}
+
+
 @media (min-width: 769px) and (max-width: 1024px) {
     .left-side {
         padding: 31px 16px;
@@ -147,3 +154,32 @@
         font-size: 17px;
     }
 }
+
+@media (max-width : 425px) {
+    .left-side {
+        padding: 0px 25px;
+    }
+
+    .para {
+        padding: 0 3px;
+        font-size: 15px;
+    }
+
+    .left-heading {
+        font-size: 35px;
+    }
+
+    .business-top {
+        font-size: 18px;
+    }
+
+    .business-heading {
+        font-size: 17px;
+    }
+
+    .business-icon {
+        scale: .7;
+    }
+
+}
+

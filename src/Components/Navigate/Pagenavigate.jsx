@@ -28,7 +28,7 @@ function Pagenavigate() {
           <a href="#"><FaRegArrowAltCircleRight size={23} /> </a>
         </div>
       </div>
-      <div className="gopage">
+      {/* <div className="gopage">
         <p className='nav-count'>04</p>
         <div className="page">
           <span>Employee appreciations program</span>
@@ -41,7 +41,7 @@ function Pagenavigate() {
           <span>global business</span>
           <a href="#"><FaRegArrowAltCircleRight size={23} /> </a>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
