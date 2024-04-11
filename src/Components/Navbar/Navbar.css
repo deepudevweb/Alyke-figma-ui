@@ -1,14 +1,16 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
     width: 100%;
     background-color: rgba(128, 128, 128, 0.18);
+    background-color: transparent ;
     position: sticky;
     top: 0;
     transition: backgound-color 0.4s ease-in-out;
-    opacity: 2 !important;
+    border-bottom: 1px solid white;
+    z-index: 2;
 }
 
 header.scrolled {
@@ -17,11 +19,15 @@ header.scrolled {
 }
 
 .link-zone1 {
-    width: 33.33%;
+    width: 50%-30px;
 }
 
 .logo {
-    width: 33.33%;
+    width: 60px;
+    z-index: 2;
+}
+.flex1{
+    flex: 1;
 }
 
 .link-zone1 ul {
@@ -29,18 +35,21 @@ header.scrolled {
     align-items: center;
     gap: 40px;
     cursor: pointer;
+    width: 50%-30px;
 }
 
-.link-zone2 ul{
+.link-zone2 ul {
    display: flex;
    align-items: center;
    gap: 30px;
+   justify-content: flex-end;
+
 
 }
 
 .navlink {
     text-decoration: none;
-    color: rgb(12, 10, 10);
+    color: white;
 
 }
 
@@ -60,4 +69,45 @@ header ul {
 .nav-logo {
     width: 60px;
     height: 58px;
+}
+.MobileHide{
+    display: block;
+}
+.hamberger{
+    display: none;
+}
+.navlinks{
+    display: none;
+}
+.links{
+    color: #fff;
+}
+@media(max-width:768px){
+    .MobileHide{
+        display: none;
+    }
+    .hamberger{
+        display: block;
+        position: absolute;
+        left: 5%;
+        z-index: 3;
+    }
+    .navlinks{
+        height: 100vh;
+        padding: 20% 0px;
+        display: flex;
+        position: absolute;
+        top: -100vh;
+        z-index: 2;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.949);
+        backdrop-filter: blur(5px);
+        transition: all 0.3s ease-in-out;
+    }
+    .open{
+        top: 0;
+    }
 }

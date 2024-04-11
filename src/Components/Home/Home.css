@@ -5,3 +5,30 @@
     background-position: center;
     background-size: cover;
 }
+.home-inner{
+    margin-top: -100px;
+    width:  100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+
+}
+.texts{
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 8%;
+}
+.floating-Button{
+    position:absolute;
+    right:5%;
+    bottom: 5%;
+}
+
+/* carousel styling */
+.carousel{
+    position: relative;
+}
+
+

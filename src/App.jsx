@@ -14,8 +14,9 @@ import Navbar from './Components/Navbar/Navbar'
 function App() {
   return (
     <div>
+      <Navbar />
       <Home />
-      {/* <Pagenavigate /> */}
+      <Pagenavigate />
       <Connected />
       <Believe />
       {/* <Celebrate /> */}

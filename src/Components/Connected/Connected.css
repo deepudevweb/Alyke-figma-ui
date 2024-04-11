@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
 }
 
 .left-side,
@@ -26,7 +26,6 @@
 
 .left-heading {
     font-size: 50px;
-    margin-bottom: 3rem;
     font-weight: 100;
 }
 
@@ -44,7 +43,7 @@
     padding: 0 50px;
     line-height: 1.2;
     margin-bottom: 1.5rem;
-    font-size: 20px;
+    font-size: 14px;
     color: rgba(128, 128, 128, 0.907);
 
 }
@@ -56,7 +55,6 @@
 .left-inner h3 {
     display: flex;
     align-items: center;
-    margin-bottom: 1.5rem;
 }
 
 .business-top {
@@ -77,11 +75,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-position: center;
+    background-size: cover;
 
 }
 
 .connect-img {
-    max-width: 100%;
+    /* max-width: 100%; */
     height: auto;
     opacity: 0;
     transform: translateX(50px);
@@ -95,7 +95,19 @@
     opacity: 1;
     transform: translateX(0);
 }
+.rightImage{
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.blackoverlay{
+    background-color: rgba(0, 0, 0, 0.475);
+    height: 100%;
+    width: 100%;
 
+}
 
 
 /* connected responsive */

@@ -2,11 +2,14 @@
     display: flex;
     justify-content: center;
     background-color: #112C41;
-    height: 400px;
+    /* height: 400px; */
+    padding: 7rem 20px;
+    position: relative;
 }
 
 .user-img {
     margin-right: 3rem;
+    height: 25rem;
 }
 
 .monial-left {
@@ -42,7 +45,7 @@
 
 @media (max-width: 425px) { 
     .usermonial {
-        height: 280px;
+        padding: 2rem 3rem;
     }
 
     .user-img {
@@ -52,6 +55,7 @@
 
     .monial-inner {
         width: 100%;
+        flex-direction: column;
     }
 
     .monial-para {

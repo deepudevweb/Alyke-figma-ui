@@ -3,26 +3,59 @@
     align-items: center;
     gap: 40px;
     cursor: pointer;
+    color: white;
+    justify-content: space-between;
 }
 
 .nav-count {
     font-size: 18px;
+    margin-right: 10px;
     font-weight: 600;
     color: #808080d4;
-    margin-bottom: 7px;
 }
 
 .navigate {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 15px;
     width: 100%;
     border: 1px solid black;
+    overflow-x: auto;
 }
+.gopage{
+    min-width: 100vw;
+    display: flex;
+    padding: 20px 30px;
+    background-color: #112C41;
+    flex-direction: column;
+    border-right: 1px solid black;
+}
+.navigate::-webkit-scrollbar-track
+{
+	border: 1px solid black;
+	background-color: #F5F5F5;
+    height: 2px !important;
+}
+
+.navigate::-webkit-scrollbar
+{
+	height: 8px !important;
+    border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.navigate::-webkit-scrollbar-thumb
+{
+	background-color: rgb(217, 171, 171);	
+}
+
 
 /* navigate responsive */
 
+@media (min-width: 768px) {
+    .gopage{
+        min-width: 33.33%;
+    }
+}
 @media (max-width: 425px) {
   .page> span {
     font-size: 10px;

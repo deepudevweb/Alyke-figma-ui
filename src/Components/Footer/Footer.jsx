@@ -11,7 +11,7 @@ function Footer() {
       <div className="foot-up">
         <div className="logo">
             <img src={Footerlogo} alt="company logo" className="footer-logo" />
-            <div className="links">
+            <div className="socials">
                 <a href="https://instagram.com/prajapati0841?igshid=NzZlODBkYWE4Ng==" target='_blank'><FaInstagram /></a>
                 <a href="https://www.facebook.com/profile.php?id=100047653715123&mibextid=ZbWKwL" target='_blank'><RiFacebookFill /></a>
                 <a href="https://www.linkedin.com/in/deepu-prajapati-49683a23b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'><TfiLinkedin /></a> 
