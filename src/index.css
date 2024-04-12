@@ -4,8 +4,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "PT Serif", serif;
+}
+
+/* slide arrow styling */
+
+.slide-left:hover {
+  color: red !important;
+  transition: 0.4s;
+  cursor: pointer;
+  transform: translateX(-5px);
+}
+.slide-right:hover {
+  color: red !important;
+  transition: 0.4s;
+  cursor: pointer;
+  transform: translateX(5px);
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from './Components/Home/Home'
+import { Routes, Route } from 'react-router-dom';
 import Pagenavigate from './Components/Navigate/Pagenavigate'
 import Connected from './Components/Connected/Connected'
 import Believe from './Components/Believe/Believe'

@@ -4,7 +4,7 @@ import Graph from '../../assets/graph.png'
 
 function Believe() {
     return (
-        <div className='believe'>
+        <div id='believe' className='believe'>
             <div className="conatiner-top">
                 <div className="cont-left">
                     <h2 className='believe-heading'>We believe in <span className='heading-color'>diversity & <br /> inclusion</span></h2>

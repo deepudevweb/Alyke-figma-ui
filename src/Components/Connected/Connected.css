@@ -138,11 +138,6 @@
     }
 }
 
-@media (max-width: 425) {
-    .left-side {
-        padding: 0px 15px;
-    }
-}
 
 /* desktop responsive */
 
@@ -172,24 +167,29 @@
 
 @media (max-width : 425px) {
     .left-side {
-        padding: 0px 25px;
+        padding: 25px 25px;
     }
 
     .para {
         padding: 0 3px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .left-heading {
         font-size: 35px;
     }
 
+    .business {
+        font-size: 20px;
+        margin-right: 9px;
+    }
+
     .business-top {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .business-heading {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .business-icon {

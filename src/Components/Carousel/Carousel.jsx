@@ -18,8 +18,8 @@ export const Carousel = ({ children }) => {
       <div className="carousel">
         <div className="item">{React.Children.toArray(children)[currentIndex]}</div>
         <div className="floating-Button">
-          <CiCircleChevLeft onClick={goToPrevious} color='white' size={40}/>
-          <CiCircleChevRight onClick={goToNext} color='white' size={40} />
+          <CiCircleChevLeft onClick={goToPrevious} color='white' size={40} className='slide-left' style={{cursor: 'pointer'}}/>
+          <CiCircleChevRight onClick={goToNext} color='white' size={40} className='slide-right' style={{cursor: 'pointer'}} />
         </div>
       </div>
     );

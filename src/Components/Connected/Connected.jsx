@@ -15,7 +15,7 @@ function Connected() {
   }, []);
 
   return (
-    <div className={`connected ${animate ? "animate" : ""}`}>
+    <div id="connected" className={`connected ${animate ? "animate" : ""}`}>
       <Carousel>
         <Connected1 />
         <Connected2 />

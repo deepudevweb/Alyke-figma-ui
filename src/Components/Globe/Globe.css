@@ -50,11 +50,19 @@
 
 @media (max-width: 425px) { 
     .globe-heading {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .open-roles {
-        font-size: 15px;
+        font-size: 11px;
+    }
+
+    .globe {
+        margin-top: 67px;
+    }
+
+    .globe-up p {
+        font-size: 12px;
     }
 
 }

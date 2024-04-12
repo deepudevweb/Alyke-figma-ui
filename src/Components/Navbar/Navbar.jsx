@@ -19,15 +19,15 @@ function Navbar() {
     return (
         <header className='navbar'>
             <div className="hamberger" >
-                {open ? <FaTimes color='white' size={30} onClick={() => setOpen(!open)} /> : <CiMenuFries color='white' size={30} onClick={() => setOpen(!open)} />}
+                {open ? <FaTimes color='red' size={30} onClick={() => setOpen(!open)} className='ham-icon' /> : <CiMenuFries color='white' size={30} onClick={() => setOpen(!open)} className='ham-icon' />}
             </div>
             <div className={open ? 'navlinks open' : 'navlinks'}>
-                <div className="links">PROJECTS</div>
-                <div className="links">EXPERTISE</div>
-                <div className="links">ABOUT US</div>
-                <div className="links">PEOPLE</div>
-                <div className="links">CAREERS</div>
-                <div className="links">AU</div>
+                <div className="links"> <a href="#">PROJECTS</a></div>
+                <div className="links"><a href="#">EXPERTISE</a></div>
+                <div className="links"><a href="#">ABOUT US</a></div>
+                <div className="links"><a href="#">PEOPLE</a></div>
+                <div className="links"><a href="#">CAREERS</a></div>
+                <div className="links"><a href="#">AU</a></div>
             </div>
             <div className="link-zone1 flex1 MobileHide">
                 <ul>

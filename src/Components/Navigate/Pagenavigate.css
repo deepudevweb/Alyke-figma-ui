@@ -20,6 +20,7 @@
     width: 100%;
     border: 1px solid black;
     overflow-x: auto;
+    cursor: pointer;
 }
 .gopage{
     min-width: 100vw;
@@ -69,6 +70,18 @@
 .nav-count {
     font-size: 13px;
     margin-bottom: 4px;
+}
+
+.gopage {
+    padding: 8px 30px;
+}
+
+.page> span {
+    font-size: 15px;
+}
+
+.nav-count {
+    font-size: 16px;
 }
 }
 
