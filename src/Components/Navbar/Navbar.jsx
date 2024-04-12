@@ -16,18 +16,19 @@ function Navbar() {
 
   const [open, setOpen] = React.useState(false)
 
+
     return (
         <header className='navbar'>
             <div className="hamberger" >
                 {open ? <FaTimes color='red' size={30} onClick={() => setOpen(!open)} className='ham-icon' /> : <CiMenuFries color='white' size={30} onClick={() => setOpen(!open)} className='ham-icon' />}
             </div>
             <div className={open ? 'navlinks open' : 'navlinks'}>
-                <div className="links"> <a href="#">PROJECTS</a></div>
-                <div className="links"><a href="#">EXPERTISE</a></div>
-                <div className="links"><a href="#">ABOUT US</a></div>
-                <div className="links"><a href="#">PEOPLE</a></div>
-                <div className="links"><a href="#">CAREERS</a></div>
-                <div className="links"><a href="#">AU</a></div>
+                <div className="links" onClick={() => setOpen(!open)}> <a href="#">PROJECTS</a></div>
+                <div className="links" onClick={() => setOpen(!open)}><a href="#">EXPERTISE</a></div>
+                <div className="links" onClick={() => setOpen(!open)}><a href="#">ABOUT US</a></div>
+                <div className="links" onClick={() => setOpen(!open)}><a href="#">PEOPLE</a></div>
+                <div className="links" onClick={() => setOpen(!open)}><a href="#">CAREERS</a></div>
+                <div className="links" onClick={() => setOpen(!open)}><a href="#">AU</a></div>
             </div>
             <div className="link-zone1 flex1 MobileHide">
                 <ul>
