@@ -110,7 +110,7 @@
 }
 
 
-/* connected responsive */
+/* tablet responsive */
 
 @media (max-width: 768px) {
     .connected {
@@ -144,6 +144,7 @@
     }
 }
 
+/* desktop responsive */
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .left-side {
@@ -166,6 +167,8 @@
         font-size: 17px;
     }
 }
+
+/* Mobile Responsive */
 
 @media (max-width : 425px) {
     .left-side {
