@@ -126,7 +126,7 @@ function Connected2() {
       </div>
       <div
         className="rightImage"
-        style={{ backgroundImage: `url(${Connect})` }}
+        style={{ backgroundImage: `url(${'https://aprioboardportal.com/wp-content/uploads/2023/02/Minutes-for-a-meeting.png'})` }}
       >
         <div className="blackoverlay"></div>
       </div>
@@ -179,7 +179,7 @@ function Connected3() {
       </div>
       <div
         className="rightImage"
-        style={{ backgroundImage: `url(${Connect})` }}
+        style={{ backgroundImage: `url(${'https://9253440.fs1.hubspotusercontent-na1.net/hubfs/9253440/diverse%20group%20of%20coworkers%20in%20a%20circle%20shaking%20hands%20and%20smiling.jpg'})` }}
       >
         <div className="blackoverlay"></div>
       </div>

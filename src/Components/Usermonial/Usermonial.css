@@ -9,7 +9,8 @@
 
 .user-img {
     margin-right: 3rem;
-    height: 25rem;
+    height: 15rem;
+    width: 85%;
 }
 
 .monial-left {
@@ -42,6 +43,8 @@
     cursor: pointer;
     margin-top: 1rem;
 }
+
+/* mobile responsive */
 
 @media (max-width: 425px) { 
     .usermonial {
