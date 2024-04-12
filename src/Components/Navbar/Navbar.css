@@ -5,7 +5,7 @@
     padding: 1px 45px;
     width: 100%;
     background-color: rgba(128, 128, 128, 0.18);
-    background-color: transparent ;
+    background-color: transparent;
     position: sticky;
     top: 0;
     transition: backgound-color 0.4s ease-in-out;
@@ -26,7 +26,8 @@ header.scrolled {
     width: 60px;
     z-index: 2;
 }
-.flex1{
+
+.flex1 {
     flex: 1;
 }
 
@@ -39,10 +40,10 @@ header.scrolled {
 }
 
 .link-zone2 ul {
-   display: flex;
-   align-items: center;
-   gap: 30px;
-   justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: flex-end;
 
 
 }
@@ -66,38 +67,46 @@ header ul {
 .header a {
     transition: color 0.4s ease-in-out;
 }
+
 .nav-logo {
     width: 60px;
     height: 58px;
 }
-.MobileHide{
+
+.MobileHide {
     display: block;
 }
-.hamberger{
+
+.hamberger {
     display: none;
 }
-.navlinks{
+
+.navlinks {
     display: none;
 }
-.links{
+
+.links {
     color: #fff;
 }
 
-.navlink:hover{
+.navlink:hover {
     color: rgb(255, 127, 80);
     transition: cubic-bezier(0.23, 1, 0.320, 1) 0.3s;
 }
-@media(max-width:768px){
-    .MobileHide{
+
+@media(max-width:768px) {
+    .MobileHide {
         display: none;
     }
-    .hamberger{
+
+    .hamberger {
         display: block;
         position: absolute;
         left: 5%;
         z-index: 3;
     }
-    .navlinks{
+
+    .navlinks {
         height: 100vh;
         padding: 20% 0px;
         display: flex;
@@ -112,16 +121,17 @@ header ul {
         backdrop-filter: blur(5px);
         transition: all 0.3s ease-in-out;
     }
-    .open{
+
+    .open {
         top: 0;
     }
 
-     .open a{
+    .open a {
         color: #fff;
         text-decoration: none;
     }
 
-    .open a:hover{
+    .open a:hover {
         color: rgb(255, 127, 80);
     }
 
@@ -130,7 +140,7 @@ header ul {
 
 @media (max-width: 425px) {
     .navbar {
-        padding: 5px;      
+        padding: 5px;
     }
 
     .nav-logo {

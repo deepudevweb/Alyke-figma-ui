@@ -97,7 +97,7 @@ function Usermonial3() {
           </span>
           <p className="monial-para">
             Alyke give me my expectations! Their services are
-            excellence, <br /> i want to recommend them to everyone. 
+            excellence, <br /> i want to recommend them to everyone.
             connect with us. and we will work with you.
           </p>
           <p className="user-para">Employee</p>

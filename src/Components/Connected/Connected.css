@@ -95,14 +95,16 @@
     opacity: 1;
     transform: translateX(0);
 }
-.rightImage{
+
+.rightImage {
     flex: 1;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
 }
-.blackoverlay{
+
+.blackoverlay {
     background-color: rgba(0, 0, 0, 0.475);
     height: 100%;
     width: 100%;
@@ -136,6 +138,15 @@
         padding: 0 10px;
         font-size: 15px;
     }
+
+    .blackoverlay {
+        height: 35vh;
+        width: 100vw;
+    }
+
+    .rightImage {
+        height: fit-content;
+    }
 }
 
 
@@ -154,6 +165,7 @@
     .business-top {
         font-size: 17px;
     }
+
     .left-heading {
         font-size: 40px;
     }
@@ -197,4 +209,3 @@
     }
 
 }
-

@@ -9,6 +9,7 @@ import { Carousel } from "../Carousel/Carousel";
 function Connected() {
   const [animate, setAnimate] = useState(false);
 
+
   useEffect(() => {
     // Trigger animation when component mounts
     setAnimate(true);

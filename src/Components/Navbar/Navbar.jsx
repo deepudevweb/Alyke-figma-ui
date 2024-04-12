@@ -5,16 +5,16 @@ import { CiMenuFries } from "react-icons/ci";
 import { FaTimes } from 'react-icons/fa';
 
 function Navbar() {
-  document.addEventListener('scroll', ()=> {
-    const header = document.querySelector('header')
-    if (window.scrollY > 0) {
-        header.classList.add('scrolled')
-    } else {
-        header.classList.remove('scrolled')
-    }
-  })
+    document.addEventListener('scroll', () => {
+        const header = document.querySelector('header')
+        if (window.scrollY > 0) {
+            header.classList.add('scrolled')
+        } else {
+            header.classList.remove('scrolled')
+        }
+    })
 
-  const [open, setOpen] = React.useState(false)
+    const [open, setOpen] = React.useState(false)
 
 
     return (
@@ -50,8 +50,8 @@ function Navbar() {
                 </ul>
 
             </div>
-            </header>
-            )
+        </header>
+    )
 }
 
-            export default Navbar
+export default Navbar

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +11,27 @@ body {
   font-family: "PT Serif", serif;
 }
 
+/* webkit-scrollbar styling */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+
+}
+
 /* slide arrow styling */
 
 .slide-left:hover {
@@ -19,6 +40,7 @@ body {
   cursor: pointer;
   transform: translateX(-5px);
 }
+
 .slide-right:hover {
   color: red !important;
   transition: 0.4s;

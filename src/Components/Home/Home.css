@@ -1,43 +1,46 @@
 /* home styling */
-.home-inner{
+.home-inner {
     margin-top: -100px;
-    width:  100%;
+    width: 100%;
     height: 100vh;
     object-fit: cover;
     background-position: center;
     background-size: cover;
 
 }
-.texts{
+
+.texts {
     color: white;
     position: absolute;
     bottom: 20%;
     left: 8%;
 }
 
-.texts p{
+.texts p {
     font-size: 18px;
     font-weight: 100;
 }
-.texts h1{
+
+.texts h1 {
     font-size: 50px;
     font-weight: 100;
 }
-.floating-Button{
-    position:absolute;
-    right:5%;
+
+.floating-Button {
+    position: absolute;
+    right: 5%;
     bottom: 5%;
 }
 
 /* carousel styling */
-.carousel{
+.carousel {
     position: relative;
 }
 
 
 /* mobile responsiveness */
 
-@media (max-width : 420px){
+@media (max-width : 420px) {
     .texts p {
         font-size: 11px;
     }
@@ -48,12 +51,11 @@
 
     .home-inner {
         width: 100%;
-        height: 86vh; 
+        height: 86vh;
     }
 
-    .slide-left, .slide-right {
+    .slide-left,
+    .slide-right {
         scale: .8;
     }
 }
-
-

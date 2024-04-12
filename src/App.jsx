@@ -7,7 +7,7 @@ import Program from './Components/Program/Program'
 import Globe from './Components/Globe/Globe'
 import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
-// import Celebrate from './Components/Celebrate/Celebrate'
+import Celebrate from './Components/Celebrate/Celebrate'
 
 
 

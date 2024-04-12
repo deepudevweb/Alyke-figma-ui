@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     background-color: #112C41;
-    /* height: 400px; */
     padding: 7rem 20px;
     position: relative;
 }
@@ -46,7 +45,7 @@
 
 /* mobile responsive */
 
-@media (max-width: 425px) { 
+@media (max-width: 425px) {
     .usermonial {
         padding: 2rem 3rem;
     }

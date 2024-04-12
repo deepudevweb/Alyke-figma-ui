@@ -1,12 +1,11 @@
-
 .believe {
     padding: 20px 20px;
-    /* height: 100vh; */
     border: 1px solid black;
     background-color: #122C41;
 }
+
 .conatiner-top {
-    display: flex;  
+    display: flex;
     margin: 5rem;
 }
 
@@ -24,8 +23,9 @@
     width: 50%;
 }
 
-.believe-para1, .believe-para2{
-    margin-bottom:30px;
+.believe-para1,
+.believe-para2 {
+    margin-bottom: 30px;
     font-size: 20px;
     line-height: 1.6;
     color: white;
@@ -51,14 +51,18 @@
     .conatiner-top {
         flex-direction: column;
     }
+
     .cont-right {
         width: 100%;
     }
+
     .believe-heading {
         font-size: 40px;
         margin-bottom: 1rem;
     }
-    .believe-para1, .believe-para2 {
+
+    .believe-para1,
+    .believe-para2 {
         font-size: 15px;
     }
 }
@@ -68,7 +72,9 @@
         font-size: 40px;
         margin-bottom: 1rem;
     }
-    .believe-para1, .believe-para2 {
+
+    .believe-para1,
+    .believe-para2 {
         font-size: 13px;
     }
 
@@ -80,15 +86,18 @@
 @media (max-width: 425px) {
     .believe-heading {
         font-size: 30px;
-        margin-bottom: 1rem;    
+        margin-bottom: 1rem;
     }
-    .believe-para1, .believe-para2 {
+
+    .believe-para1,
+    .believe-para2 {
         font-size: 12px;
     }
 
     .believe-para3 {
         font-size: 16px;
     }
+
     .believe {
         padding: 5px 3px;
     }
